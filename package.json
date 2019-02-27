@@ -1,0 +1,31 @@
+{
+  "name": "next-frontend",
+  "version": "1.0.0",
+  "description": "Frontend project base using NextJS and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js"
+  },
+  "author": "Terry Chan",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "immutable": "^4.0.0-rc.12",
+    "next": "7.0.3",
+    "next-redux-wrapper": "^3.0.0-alpha.1",
+    "node-sass": "^4.11.0",
+    "path": "^0.12.7",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-immutable": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  }
+}
